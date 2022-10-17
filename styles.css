@@ -1,0 +1,76 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+    max-width: 1440px;
+    min-width: 375px;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color:  hsl(213, 19%, 18%);
+    width: 21rem;
+    height: 21rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+
+h1{
+    color: white;
+    font-weight: 400;
+}
+
+.star{
+    background-color: hsl(216, 12%, 54%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+    line-height: 1.5rem;
+
+}
+.Q{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.circle{
+    background-color: hsl(216, 12%, 8%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.button{
+    background-color: hsl(25, 97%, 53%) ;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
